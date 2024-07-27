@@ -2,8 +2,8 @@ import imapclient
 import pyzmail
 
 # Your Gmail credentials
-EMAIL = 'annammaphilip249@gmail.com'
-PASSWORD = 'lijk gche zdlg snhn'  # Use an App Password if you have 2FA enabled
+EMAIL = 'abcd9@gmail.com'
+PASSWORD = 'xxxx xxxx xxxx xxxx'  # Use an App Password if you have 2FA enabled
 
 # Domains to delete emails from
 UNWANTED_DOMAINS = ['flipkart.com', 'notification@priority.facebookmail.com', 'no-reply@accounts.google.com']
