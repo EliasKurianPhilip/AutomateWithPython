@@ -6,7 +6,7 @@ EMAIL = 'abcd9@gmail.com'
 PASSWORD = 'xxxx xxxx xxxx xxxx'  # Use an App Password if you have 2FA enabled
 
 # Domains to delete emails from
-UNWANTED_DOMAINS = ['flipkart.com', 'notification@priority.facebookmail.com', 'no-reply@accounts.google.com']
+UNWANTED_DOMAINS = ['example.com', 'spamdomain.com', 'anotherdomain.com']
 
 def delete_unwanted_emails():
     with imapclient.IMAPClient('imap.gmail.com', ssl=True) as client:
