@@ -10,6 +10,10 @@ Secure Login: Uses IMAP over SSL for secure authentication.
 Domain-Based Filtering: Searches for emails from specified domains.
 Automated Deletion: Deletes the found emails and permanently removes them from the mailbox.
 
+Requirements:
+You need to download these two libraries:
+pip install imapclient
+pip install pyzmail36
 
 Note:
 Replace the gmail address with your own gmail. 
